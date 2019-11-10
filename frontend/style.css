@@ -1,0 +1,7 @@
+.ui.image {
+	width: 30% !important;
+}
+
+.ui.card, .trans {
+	display: none;
+}

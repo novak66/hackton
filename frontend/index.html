@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PaysCrypt</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="semantic/semantic.min.js"></script>
+	<script type="text/javascript" src="qrcode.js"></script>
+	
+	<link rel="stylesheet" href="semantic/semantic.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section class="ui center aligned segment">
+		<section class="ui header">
+			 <img class="ui image" src="logo.png">
+		</section>
+	</section>
+	<section class="ui grid">
+		<section class="column">
+			<section class="ui container">
+				<form  class="ui form">
+					<div class="field">
+						<input type="text" name="address" placeholder="wallet address"/>
+					</div>
+					<input class="ui button" type="submit" value="submit"/>
+				</form>
+			</section>
+
+			<div class="ui fluid card">
+				<div class="image">
+					<img src="user.png">
+				</div>
+				<div class="content">
+					<a class="header">Kristy</a>
+					<div class="meta">
+						<span class="date">Joined in 2019</span>
+					</div>
+					<div class="description">Adress: cd5b1e4947e304476c788cd474fb579a</div>
+					<div class="description">Amount: 1 btc</div>
+				</div>
+				<div class="extra content">
+					<a>
+						<i class="user icon"></i>
+						22 Friends
+					</a>
+				</div>
+			</div>
+
+			<section class="ui container">
+				<form method="POST" class="ui form trans">
+					<div class="two fields">
+						<div class="field">
+							<label>Address</label>
+							<input type="text" name="address" placeholder="ex. cd5b1e4947e304476c788cd474fb579a"/>
+						</div>
+						<div class="field">
+							<label>Amount</label>
+							<input type="text" name="amount" placeholder="ex. 0.00001"/>
+						</div>
+					</div>
+					<input class="ui button" type="submit" value="transferir"/>
+				</form>
+			</section>
+		</section>
+	</section>
+	
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
